@@ -3,3 +3,9 @@
 @theme {
   --font-geist-sans: var(--font-geist-sans);
 }
+
+@layer base {
+  body {
+    @apply bg-white text-zinc-800;
+  }
+}
